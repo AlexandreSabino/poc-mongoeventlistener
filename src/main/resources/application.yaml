@@ -1,0 +1,9 @@
+spring:
+  application.name: poc-mongoeventlistener
+  kafka:
+    properties.max.request.size: 15728640
+    bootstrap-servers: localhost:9092
+
+big-data:
+  topicName: "sender"
+  event: ON_BEFORE_SAVE
